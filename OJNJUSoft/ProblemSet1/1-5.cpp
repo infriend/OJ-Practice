@@ -43,7 +43,7 @@ int main(){
                 min_num = board[j];
             }
         }   
-        cout << search(min_num, max_num) << "\n"; 
+        cout << search(min_num, max_num) << endl; 
     }
 
     return 0;
