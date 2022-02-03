@@ -35,6 +35,7 @@ int main(){
 
         while (count < n){
             int position = pow(2, pow_n)+count;
+            if (position > n) position = n;
             sort(&buf[count], &buf[position], cmp);
             last_n = buf[count];
             cout << last_n;
