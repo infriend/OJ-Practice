@@ -34,10 +34,13 @@ int main(){
     cin >> t;
     for (int i = 0; i < t; i++){
         cin >> n;
-        int min_num = 1, max_num = 0;
+        int min_num = 0, max_num = 0;
         for (int j = 0; j < n; j++){
             cin >> a[j];
             max_num += a[j];
+            if (min_num < a[j]){
+                min_num = a[j];
+            }
         }
         cin >> m;
         if (m > n){

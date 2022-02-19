@@ -1,5 +1,6 @@
 !README.md
 target/
+cmake-build-debug/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
@@ -32,3 +33,4 @@ build/
 ### VS Code ###
 .vscode/
 *.exe
+*.out
