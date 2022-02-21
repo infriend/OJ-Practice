@@ -1,6 +1,8 @@
 //
 // Created by infriend on 2022/2/19.
 //
+
+// This program would get runtime error in OJ
 #include <bits/stdc++.h>
 using namespace std;
 
