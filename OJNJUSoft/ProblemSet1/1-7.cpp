@@ -41,7 +41,10 @@ int main(){
             cout << last_n;
             for (int j = count+1; j < position; j++){
                 if (last_n == buf[j]) continue;
-                else cout << buf[j];
+                else{
+                    cout << " " << buf[j];
+                    last_n = buf[j];
+                } 
             }
             cout << endl;
             count = position;
